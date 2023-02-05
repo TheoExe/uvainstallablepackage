@@ -26,3 +26,6 @@ def space_compress(stocomp):
         print("Expected str but got {} instead".format(type(stocomp)))
 
     return comp.strip()
+
+def new_func():
+    pass
