@@ -26,3 +26,11 @@ def space_compress(stocomp):
         print("Expected str but got {} instead".format(type(stocomp)))
 
     return comp.strip()
+
+
+def string_upper(str_input):
+    assert isinstance(str_input, str), "Expected str but got {} instead".format(type(str_input))
+
+    #convert input string to uppercase and return
+    return str_input.upper()
+
